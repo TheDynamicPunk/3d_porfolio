@@ -33,7 +33,6 @@ import neargroup from "./company/neargroup.png"
 
 import hashster from "./hashster.jpg";
 import linkslater from "./linkslater.jpg";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -67,6 +66,5 @@ export {
   paisabazaar,
   neargroup,
   hashster,
-  linkslater,
-  tripguide,
+  linkslater
 };
