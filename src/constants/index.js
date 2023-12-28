@@ -1,8 +1,11 @@
 import {
-    mobile,
     backend,
     creator,
+    mentor,
     web,
+    python,
+    kafka,
+    spring,
     javascript,
     typescript,
     html,
@@ -15,14 +18,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    target,
+    dell,
+    pinkishe,
+    paisabazaar,
+    neargroup,
+    hashster,
+    linkslater,
+    threejs
   } from "../assets";
   
   export const navLinks = [
@@ -46,20 +49,32 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mentor",
       icon: creator,
+    },
+    {
+      title: "Speaker",
+      icon: mentor,
     },
   ];
   
   const technologies = [
+    {
+      name: "Java Spring Boot",
+      icon: spring,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Kafka",
+      icon: kafka,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -116,55 +131,63 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Sofware Engineer",
+      company_name: "Target Corporation",
+      icon: target,
+      iconBg: "#ffffff",
+      date: "Sep 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on a real-time, high-throughput, and horizontally scalable application that rigorously evaluates thousands of rules against a user identity change, effectively identifying and mitigating rogue accesses.",
+        "Engineered and implemented streamlined APIs using Java Spring Boot to enhance inter-application functionality, fostering seamless collaboration across systems",
+        "Championed application performance optimization through comprehensive code reviews, strategic bottleneck identification, and systematic enhancements to ensure peak system efficiency and adherence to best coding practices.",
+        "Guided teams in implementing advanced cybersecurity practices and technologies, enhancing organizational security."
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Associate Engineer Analyst",
+      company_name: "Dell",
+      icon: dell,
+      iconBg: "#ffffff",
+      date: "Feb 2021 - Sep 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Served as a Solutions Architect in Dell's Presales Division, specializing in storage and compute solutions.",
+        "Collaborated with prominent corporations including Ford, Google, and Amazon to strategize cloud deployment hardware and scalability solutions."
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "Pinkishe Foundation",
+      icon: pinkishe,
+      iconBg: "#ffffff",
+      date: "Feb 2020 - July 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Volunteered to design and maintain the website for Pinkishe Foundation.",
+        "Implemented impactful SEO changes, resulting in a remarkable 25% increase in search optimization.",
+        "Automated form submissions, streamlining data collection from diverse sources and significantly reducing turnaround times by nearly one day",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Web Developer",
+      company_name: "Paisabazaar",
+      icon: paisabazaar,
+      iconBg: "#FFFFFF",
+      date: "May 2019 - Jul 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Fortunate to contribute to the development team of one of India's fastest-growing financial companies as a Junior Web Developer, proficient in React and NodeJS.",
+        "Successfully implemented a templating system for client credit reports, guided by my mentor.",
+        "Proposed and executed enhancements to the credit report page, subsequently integrated into the production environment."
+      ],
+    },
+    {
+      title: "Junior Software Engineer",
+      company_name: "Neargroup Chatbots",
+      icon: neargroup,
+      iconBg: "#FFFFFF",
+      date: "Jun 2018 - Jul 2018",
+      points: [
+        "Acquired comprehensive skills in Java, backend development, and API testing during my tenure.",
+        "Contributed end to end, including design and development of the chatbot's Converse by IQ feature."
       ],
     },
   ];
@@ -172,59 +195,36 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Ashutosh is a hard worker and quick learner, evident in the high-quality work he produces. A valuable team member!",
+      name: "Prashant Pitti",
+      designation: "CEO",
+      company: "Easemytrip.com",
+      // image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Ashutosh excels in collaboration, a joy to work with in team or solo. He takes end-to-end ownership of product delivery and is adept at mentoring others. A valuable asset!",
+      name: "Team Target",
+      designation: "Engineers",
+      company: "Target Corporation"
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+        "Ashutosh stands out with a keen eye for detail, client-centric approach, and visionary thinking. A pleasure to work with!",
+      name: "Meenakshi Gupta",
+      designation: "North Indian Head of Affairs",
+      company: "Pinkishe Foundation"
+    }
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Links Later",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is the ultimate solution to conquer tab overload and streamline your browsing experience! Tired of countless tabs for bug tracking or saving links for 'someday'? Look no further. Features include a self-implemented JWT-based authentication system for seamless access, spam-resistant account creation through email verification, and real-time product price tracking for Amazon and Flipkart. The fully responsive design offers desktop and mobile views, and with full PWA functionality, you can create a homescreen shortcut for instant access. Never let your PC suffer tab chaos again! 🚀",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
+          name: "VanillaJS",
           color: "blue-text-gradient",
         },
         {
@@ -232,34 +232,43 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
+        {
+          name: "HTML",
+          color: "grey-text-gradient",
+        },
+        
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: linkslater,
+      source_code_link: "https://github.com/TheDynamicPunk/links-later",
     },
     {
-      name: "Trip Guide",
+      name: "Hashster",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This is a privacy-focused client-side application I developed, allowing seamless generation and verification of file hashes directly in your browser. This cutting-edge tool prioritizes security by ensuring your files stay local and aren't uploaded to remote servers. Because great solutions shouldn't compromise your privacy! 💪",
       tags: [
         {
-          name: "nextjs",
+          name: "VanillaJS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: hashster,
+      source_code_link: "https://github.com/TheDynamicPunk/Hashster",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
