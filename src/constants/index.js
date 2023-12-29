@@ -11,7 +11,6 @@ import {
     html,
     css,
     reactjs,
-    tailwind,
     nodejs,
     mongodb,
     git,
@@ -92,10 +91,6 @@ import {
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
